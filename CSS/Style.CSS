@@ -1,0 +1,226 @@
+/* start of external css styling */
+body {
+  background-color: black;
+  color: beige;
+}
+/* start id styling */
+#lagos-city {
+  background-color: red;
+  color: darkgreen;
+}
+/* end of id styling */
+
+/* start of class styling */
+.city {
+  background-color: green;
+  color: red;
+}
+
+.character {
+  color: lightsalmon;
+}
+
+hr {
+  color: red;
+}
+/* end of class styling */
+
+/* start of forms stylimg */
+textarea {
+  resize: none;
+}
+/* emd of forms stylimg */
+
+.anything {
+  color: blue;
+  text-align: center;
+}
+
+p,
+h2 {
+  color: chartreuse;
+  /* text-align: center; */
+}
+/* child selector */
+div p {
+  font-size: 50px;
+}
+
+/* decendant selector */
+div > p {
+  font-size: 50px;
+  font-family: "inter";
+}
+
+/* adjacent selector */
+/* to pick first paragraph tag after the div tag */
+/* div + p{
+    font: ;
+} */
+
+/* Tilder selector */
+/* to every paragraph tag after the div tag */
+/* div ~ p{
+    font-size: ;
+} */
+
+div + button:hover {
+  background-color: white;
+}
+div + button {
+  background-color: rgba(147, 226, 147, 0.5);
+  font-size: 20px;
+  height: 50px;
+  width: 100px;
+}
+
+.picture1 {
+  background-image: url(../images/20230809_091542.jpg);
+  background-size: contain;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.picture2 {
+  background-image: url(/HTML/images/20230809_091542.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 400px;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.margin-top {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.margin-botton {
+  margin-bottom: 30px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.margin-left {
+  margin-left: 30px;
+}
+
+.itsfine {
+  text-decoration: none;
+  background-color: red;
+  color: black;
+  padding: 10px 15px 10px 15px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+/* .hidden{
+    display: none;
+} */
+.hidden{
+    visibility: hidden;
+}
+  div.ex1 {
+    width: 800px;
+    margin: auto;
+    border: 3px solid #73AD21;
+  }
+  
+  div.ex2 {
+    max-width: 800px;
+    margin: auto;
+    border: 3px solid #73AD21;
+  }
+  .relative{
+      position: relative;
+      left: 30px;
+      width: 700px;
+      border: 3px solid #73AD21;
+  }
+  .relative2 {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  } 
+  div.absolute {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+  }
+  
+  .fixed{
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  width: 300px;
+  border: 3px solid red;
+  }
+.sticky{
+  position: sticky;
+  top: 5px;
+  padding: 5px;
+  border: 2px solid #4CAF50;
+  background-color: blue;
+}
+  /* css styling for flex box */
+  /* body {
+    background-color: yellow;
+  }
+
+  .container5 {
+    padding: 30%;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+  }
+  .header-styling {
+    background-color: orangered;
+    text-align: center;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    margin-bottom: 3px;
+  }
+  .left-div-style {
+    background-color: purple;
+    width: 84%;
+    height: 200px;
+    text-align: center;
+    color: white;
+    text-align: center;
+  }
+  .right-div-style {
+    background-color: aqua;
+    height: 200px;
+    color: white;
+    text-align: center;
+    width: 15%;
+  }
+  .footer-styling {
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    margin-bottom: 12px;
+    margin-top: 3px;
+    color: white;
+  } */
+  /* end of it */
+  /* padding-right: 15px;
+padding-left: 15px;
+padding-top: 10px;
+padding-bottom: 10px; */
+/* } */
+/* end of external css styling */
